@@ -1,5 +1,6 @@
 .App{
-  width: 500PX;
+  align-items: center;
+  width: 500px;
   height: 500PX;
   text-align: center;
   background-color: black;

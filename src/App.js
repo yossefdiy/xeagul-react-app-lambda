@@ -1,10 +1,11 @@
-import React from "react"
-import "./App.css"
+import React from 'react';
 
-function App(){
-  return(
-    <main>tic tac toe</main>
+
+
+export default function App() {
+  return (
+    <div className='App'>
+        <div className='game'>tic tac toe</div>
+    </div>
   )
 }
-
-export default App

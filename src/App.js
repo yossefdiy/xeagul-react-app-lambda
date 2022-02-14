@@ -66,7 +66,7 @@ import "./App.css" ;
    
     setTimeout(() => {
       alert("you win")
-    },3000);
+    },1000);
     
     }
  

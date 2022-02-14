@@ -62,7 +62,7 @@ import "./App.css" ;
    }
  
    
-   if( click1 && click2 && click3 == 'x'){
+   if( click1 && click2 && click3 === 'x'){
    
     setTimeout(() => {
       alert("you win")

@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import "./App.css" ;
+import {signInWithGoogle}from './firebaseconfig' 
 
 
 
@@ -251,10 +252,18 @@ import "./App.css" ;
 
   
   return (
+  
+
+
     <div className='App'>
     <h1>TIC TAC TOE</h1>
     <h2>tic tac{count}</h2>
     
+    <button onClick={signInWithGoogle } >singin</button>
+    
+      
+     
+
 <div className="grid-container">
   <div className="grid-item1"onClick={Habdelclick} >{click}</div> 
   <div className="grid-item2"onClick={Habdelclick2} >{click2}</div>
@@ -266,8 +275,11 @@ import "./App.css" ;
   <div className="grid-item8"onClick={Habdelclick8} >{click8}</div>
   <div className="grid-item9"onClick={Habdelclick9} >{click9}</div>  
   
+  
 </div>
+
 </div>
+
   )
 }
 export default App

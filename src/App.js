@@ -11,8 +11,13 @@ const [squar, setSquar ] =useState(Array(9).fill(null))
 const [x,setX]= useState(true)
 const winners = Win(squar)
 let status;
-if (winners){status='WINNER'+winners;
-}else{status='player'+(x ?'X':'O')}
+
+if (winners){
+  status='WINNER'+winners
+ alert ('you win')
+}
+
+else{status='player'+(x ?'X':'O')}
 
 const renderSquare=(i)=>{
   return(
@@ -53,6 +58,7 @@ const renderSquare=(i)=>{
   return(
   
       <div className='app'>
+        <h1>TIC TAC TOE</h1>
         
         <div className='bt'>
         {renderSquare(0)}

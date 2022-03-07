@@ -7,17 +7,16 @@ import Square from './sqoare';
 
 function App(){
  
-const [squar, setSquar ] =useState(Array(9).fill(null))
+const [squar, setSquar ] =useState(Array(18).fill(null))
 const [x,setX]= useState(true)
 const winners = Win(squar)
 let status;
 
 if (winners){
-  status='WINNER'+winners
+  status='WINNER  '+ winners
  alert ('you win')
 }
-
-else{status='player'+(x ?'X':'O')}
+else{status='player '+(x ?'X':'O')}
 
 const renderSquare=(i)=>{
   return(
@@ -35,7 +34,6 @@ const renderSquare=(i)=>{
     }else{alert('cant do that')
   }
 }
-
     function Win(squares){
       const list=[
       [0,1,2],
@@ -49,7 +47,7 @@ const renderSquare=(i)=>{
     ]; 
     for(let i=0;i< list.length;i++){
       const [a,b,c]=list[i];
-      if (squares[a]&& squares[a]===squares[b]&&squares[b]===squares[c] ){
+      if (squares[a]&& squares[a]===squares[b]&&squares[b]===squares[c]){
         return squares[a];
     }
     }
@@ -58,26 +56,33 @@ const renderSquare=(i)=>{
   return(
   
       <div className='app'>
-        <h1>TIC TAC TOE</h1>
+        <h1>***TIC TAC TOE***</h1>
         
         <div className='bt'>
         {renderSquare(0)}
-   {renderSquare(1)}
-   {renderSquare(2)}
+        {renderSquare(1)}
+         {renderSquare(2)}
+  
    </div>
    <div className='bt'>
    {renderSquare(3)}
    {renderSquare(4)}
    {renderSquare(5)}
-   
+
    
    </div>
-   <div className='bt'>
+  
+  
+   
+
+    <div className='bt'>
    {renderSquare(6)}
    {renderSquare(7)}
    {renderSquare(8)}
    
+   
     </div>
+ 
   {status}
      
   </div>

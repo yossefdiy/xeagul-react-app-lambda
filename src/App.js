@@ -7,7 +7,7 @@ import Square from './sqoare';
 
 function App(){
  
-const [squar, setSquar ] =useState(Array(18).fill(null))
+const [squar, setSquar ] =useState(Array(9).fill(null))
 const [x,setX]= useState(true)
 const winners = Win(squar)
 let status;

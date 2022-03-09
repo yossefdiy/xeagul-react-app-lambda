@@ -56,7 +56,7 @@ const renderSquare=(i)=>{
   return(
        
       <div className='app'>
-        <h1 className="display1">************TIC TAC TOE*********</h1>
+        <h1 className="lead">************TIC TAC TOE*********</h1>
         <div className='grid'>
         <div className='bt'>
         {renderSquare(0)}

@@ -7,7 +7,6 @@ body{
    
 }
 .app{
-  
 font-size: 40px;
 font-family: fantasy;
  text-align: center;
@@ -17,7 +16,7 @@ font-family: fantasy;
   
 }
 .bt{
-     margin:0.50;
+     margin:0 auto;
      font-size: 70px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      position: relative;
@@ -38,4 +37,5 @@ h1{
   font-family: fantasy;
   text-align: center;
 }
+
 

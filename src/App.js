@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
 import Square from './sqoare';
-import bootstrap from 'bootstrap';
 
 
   

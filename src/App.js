@@ -18,6 +18,7 @@ let status;
 if (winners){
   status='WINNER  '+ winners
  alert ('you win')
+ 
 }
 else{status='player '+(x ?'X':'O')}
 
@@ -34,6 +35,7 @@ const renderSquare=(i)=>{
     squares[i]= x ? 'X' :'O'
     setSquar(squares) 
     setX(!x)
+   
     }else{alert('cant do that')
   }
 };

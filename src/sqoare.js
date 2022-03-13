@@ -1,10 +1,9 @@
 import React from 'react';
-
-
+import './App.css'
 function Square(props){
     return(
       <div>
-        <button className="bt" onClick={()=> props.onClick()}>{props.value}</button>
+        <button type="button" class="btn btn-warning "onClick={()=> props.onClick()}>{props.value}</button>
       </div>
     )
   }

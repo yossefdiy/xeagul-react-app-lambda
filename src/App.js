@@ -3,6 +3,9 @@ import './App.css';
 import Square from './sqoare';
 
 
+
+
+
   
 
 function App(){
@@ -56,16 +59,18 @@ const renderSquare=(i)=>{
   return(
        
       <div className='app'>
+   
         <h1 className="lead">************TIC TAC TOE*********</h1>
+        
         <div className='grid'>
-        <div className='bt'>
+        <div className='btn'>
         {renderSquare(0)}
         {renderSquare(1)}
         {renderSquare(2)}
    
   
         </div>
-       <div className='bt'>
+       <div className='btn'>
         {renderSquare(3)}
         {renderSquare(4)}
         {renderSquare(5)}
@@ -77,7 +82,7 @@ const renderSquare=(i)=>{
   
    
 
-       <div className='bt'>
+       <div className='btn'>
         {renderSquare(6)}
         {renderSquare(7)}
         {renderSquare(8)}

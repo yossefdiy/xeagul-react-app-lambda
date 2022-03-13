@@ -6,31 +6,32 @@
   font-size: 40px;
   background-color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: chartreuse;
+  color: rgba(255, 238, 0, 0.6);
 }
 div.grid{
   margin: 0 auto;
   
 
   width: 301px;
-  height: 301;
-  background-color:red;
+  height: 30;
+  background-color:black;
 }
-.bt{
+.btn{
      font-size: 70px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100px;
     height: 100px;
     display: grid;
     grid-template-columns: 33% 33% 33% ;
-    gap: 70px;
+    gap: 75px;
     align-items: center;
     
     color:yellow;
-    outline: 10px auto blue;
+
     background-color: black;
  
 }
-h1{
-  font-size: 100px;
+h1.lead{
+  font-size: 50px;
+  font-family:fantasy;
 }

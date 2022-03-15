@@ -63,7 +63,7 @@ const renderSquare=(i)=>{
        
       <div className='app'>
    
-        <h1 className="lead">************TIC TAC TOE*********</h1>
+        <h1 className="lead">**TIC TAC TOE**</h1>
         
         <div className='grid'>
         <div className='btn'>

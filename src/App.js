@@ -6,6 +6,7 @@ import Square from './sqoare';
 
 
 
+
   
 
 function App(){
@@ -16,8 +17,8 @@ const winners = Win(squar)
 let status;
 
 if (winners){
-  status='WINNER  '+ winners
- alert ('you win')
+  status='WINNER  '+ winners 
+  alert('you win')
  
 }
 else{status='player '+(x ?'X':'O')}
@@ -98,6 +99,7 @@ const renderSquare=(i)=>{
     </div>
  
   {status}
+  
      
   </div>
   )
